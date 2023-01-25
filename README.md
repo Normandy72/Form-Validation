@@ -33,7 +33,7 @@
            name="name"
            ng-model="ctrl.name"
            required
-           min-length="4">
+           minlength="4">
     <button ng-click="ctrl.go()">Submit</button>
 </form>
 ```
@@ -43,7 +43,7 @@
        name="name"
        ng-model="ctrl.name"
        required
-       min-length="4">
+       minlength="4">
 <span ng-if="formName.name.$error.required && formName.name.$touched">
     Name is required
 </span>
